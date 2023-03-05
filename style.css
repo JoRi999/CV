@@ -2,7 +2,7 @@
 }
 
 body{
-    margin: 0 170px;
+    margin: 0 15%;
     line-height: 1.5;
     font-family: "Glegoo", serif;
     font-size: 16px;
@@ -12,20 +12,18 @@ a{
     text-decoration: none;
 }
 
-.menu a{
-    color: black;
-    font-weight: bold;
+h1{
+    color: #EF0107;
 }
 
 .paticka{
-    background-color: red;
+    background-color: #EF0107;
     text-align: center;
-    padding: 20px 0;
+    padding: 1px 0;
 }
 
 .sloupce {
-    float: left;
-    display: table;
+    display: flex;
     width: 100%;
 }
 
@@ -33,49 +31,60 @@ a{
     width: 30%;
     color:whitesmoke;
     background-color: #004aad;
-    padding: 10px 30px;
-    display: table-cell;
+    padding: 10px 20px;
+    flex: 20%;
 }
 
 .sloupec_vpravo {
     width: 70%;
     background-color:whitesmoke;
-    padding: 10px 30px;
-    display: table-cell;
+    padding: 10px 0px;
+    flex: 40%; 
+    color: #282425;
 }
 
-.sloupce:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 .foto_hlavni {
     width: 250px;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 3px solid whitesmoke;
     margin: 30px; 
     float: left;
 }
 
+.hlavicka,
+.prace,
+.soukr, 
+.sluzby,
+.fotogalerie{
+    padding: 10px 30px;
+}
 
 .kontakt a:link{
     color: whitesmoke;
 }
 
 .kontakt a:hover{
-    color: red;
+    color: #EF0107;
 }
 
 .menu {
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
     text-align: center;
     background-color:red; 
 }
 
 .menu li{
     display: inline-block;
+}
+
+.menu a{
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 5px;
+    overflow: auto;
 }
 
 .kontakt,
@@ -86,5 +95,9 @@ a{
     margin: 0px 30px;
 }
 
-.hlavicka{
+.kontakt hr, 
+.vzdelani hr,
+.jazyky hr,
+.basen hr{
+    color: whitesmoke;
 }
