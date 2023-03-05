@@ -14,6 +14,14 @@ a{
 
 h1{
     color: #EF0107;
+    font-size: 36px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.hlavicka h3 {
+    padding-top:0;
+    margin-top: 0;
 }
 
 .paticka{
@@ -54,7 +62,7 @@ h1{
 
 .hlavicka,
 .prace,
-.soukr, 
+.o_mne, 
 .sluzby,
 .fotogalerie{
     padding: 10px 30px;
@@ -69,7 +77,8 @@ h1{
 }
 
 .menu {
-    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
     padding: 5px 0;
     text-align: center;
     background-color:red; 
@@ -80,7 +89,7 @@ h1{
 }
 
 .menu a{
-    color: black;
+    color: #282425;
     font-weight: bold;
     display: inline-block;
     padding: 5px 5px;
@@ -90,6 +99,7 @@ h1{
 .kontakt,
 .vzdelani,
 .jazyky, 
+.dovednosti,
 .basen{
     clear:both;
     margin: 0px 30px;
@@ -98,6 +108,90 @@ h1{
 .kontakt hr, 
 .vzdelani hr,
 .jazyky hr,
+.dovednosti hr,
 .basen hr{
     color: whitesmoke;
+}
+
+.fotogalerie img{
+    width: 49%;
+    border: 1px solid #004aad;
+    border-radius: 10px;
+
+}
+
+.b {
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.sloupec_vlevo h2 {
+    margin-bottom: 0;
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+.sloupec_vlevo h3 {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 18px;
+    
+}
+
+.kontakt p {
+    margin: 0;
+}
+
+.sloupec_vpravo h2{
+   margin-bottom: 0;
+   margin-top: 15px;
+}
+
+.sloupec_vpravo h4{
+    margin: 0;
+ }
+
+.sloupec_vpravo h3{
+    margin-bottom: 0;
+    padding-top: 0px;
+ }
+
+
+ table{
+    border-spacing:0;
+    padding: 0 100px;
+    margin-top: 30px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #282425;
+    line-height: 2;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.cena{
+    text-align: right;
+    padding-left: 30px;
+}
+
+.prvni_r{
+    background-color: #004aad;
+    color: whitesmoke;
+}
+
+#prvni_r{
+        background-color: #004aad;
+        color: whitesmoke;
+    }
+
+.basen h3{
+    padding-top: 15px;
+}
+
+.prvni{
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
