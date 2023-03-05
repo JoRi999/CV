@@ -1,0 +1,90 @@
+* {box-sizing: border-box;
+}
+
+body{
+    margin: 0 170px;
+    line-height: 1.5;
+    font-family: "Glegoo", serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    color: black;
+    font-weight: bold;
+}
+
+.paticka{
+    background-color: red;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sloupce {
+    float: left;
+    display: table;
+    width: 100%;
+}
+
+.sloupec_vlevo {
+    width: 30%;
+    color:whitesmoke;
+    background-color: #004aad;
+    padding: 10px 30px;
+    display: table-cell;
+}
+
+.sloupec_vpravo {
+    width: 70%;
+    background-color:whitesmoke;
+    padding: 10px 30px;
+    display: table-cell;
+}
+
+.sloupce:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.foto_hlavni {
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid red;
+    margin: 30px; 
+    float: left;
+}
+
+
+.kontakt a:link{
+    color: whitesmoke;
+}
+
+.kontakt a:hover{
+    color: red;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:red; 
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.kontakt,
+.vzdelani,
+.jazyky, 
+.basen{
+    clear:both;
+    margin: 0px 30px;
+}
+
+.hlavicka{
+}
